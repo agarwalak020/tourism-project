@@ -1,6 +1,6 @@
 import React from "react";
 import BlogsComp from "../components/Blogs/BlogsComp";
-import Location from "../components/Location/Location";
+// import Location from "../components/Location/Location";
 
 const About = () => {
   return (
@@ -32,7 +32,7 @@ const About = () => {
           </p>
         </div>
       </div>
-      <Location />
+      {/* <Location /> */}
       <BlogsComp />
     </>
   );
